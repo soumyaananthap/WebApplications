@@ -1,0 +1,159 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 VM1368:1 Console was cleared\
+undefined\
+var obj = \{\
+    name: "meena",\
+    age: 40,\
+    isCool: false,\
+    friends:["nagu","achu"],\
+    add:function(x,y)\{\
+        return x+y;\
+    	\}\
+\}\
+undefined\
+obj\
+\{name: "meena", age: 40, isCool: false, friends: Array(2), add: \'83\}add: \'83 (x,y)arguments: nullcaller: nulllength: 2name: "add"prototype: \{constructor: \'83\}__proto__: \'83 ()[[FunctionLocation]]: VM1443:6[[Scopes]]: Scopes[1]age: 40friends: Array(2)0: "nagu"1: "achu"length: 2__proto__: Array(0)concat: \'83 concat()constructor: \'83 Array()copyWithin: \'83 copyWithin()entries: \'83 entries()every: \'83 every()fill: \'83 fill()filter: \'83 filter()find: \'83 find()findIndex: \'83 findIndex()forEach: \'83 forEach()includes: \'83 includes()indexOf: \'83 indexOf()join: \'83 join()keys: \'83 keys()lastIndexOf: \'83 lastIndexOf()length: 0map: \'83 map()pop: \'83 pop()push: \'83 push()reduce: \'83 reduce()reduceRight: \'83 reduceRight()reverse: \'83 reverse()shift: \'83 shift()slice: \'83 slice()some: \'83 some()sort: \'83 sort()splice: \'83 splice()toLocaleString: \'83 toLocaleString()toString: \'83 toString()unshift: \'83 unshift()Symbol(Symbol.iterator): \'83 values()Symbol(Symbol.unscopables): \{copyWithin: true, entries: true, fill: true, find: true, findIndex: true,\'a0\'85\}__proto__: ObjectisCool: falsename: "meena"__proto__: Object\
+obj.add()\
+NaN\
+obj.add(10,5)\
+15\
+function speak()\{\
+    return "WOOF!";\
+\}\
+undefined\
+speak()\
+"WOOF!"\
+function speak()\{\
+    return "GRRR!";\
+\}\
+undefined\
+speak()\
+"GRRR!"\
+var dogSpace = \{\};\
+undefined\
+dogSpace.speak = function()\{\
+    return "WOOF!";\
+\}\
+\'83 ()\{\
+    return "WOOF!";\
+\}\
+var lionSpace = \{\};\
+undefined\
+lionSpace.speak = function()\{\
+    return "GRRR!";\
+\}\
+\'83 ()\{\
+    return "GRRR!";\
+\}\
+dogSpace.speak()\
+"WOOF!"\
+lionSpace.speak()\
+"GRRR!"\
+\
+============================\
+VM1368:1 Console was cleared\
+undefined\
+var obj = \{\
+    name: "meena",\
+    age: 40,\
+    isCool: false,\
+    friends:["nagu","achu"],\
+    add:function(x,y)\{\
+        return x+y;\
+    	\}\
+\}\
+undefined\
+obj\
+\{name: "meena", age: 40, isCool: false, friends: Array(2), add: \'83\}add: \'83 (x,y)arguments: nullcaller: nulllength: 2name: "add"prototype: \{constructor: \'83\}__proto__: \'83 ()[[FunctionLocation]]: VM1443:6[[Scopes]]: Scopes[1]age: 40friends: Array(2)0: "nagu"1: "achu"length: 2__proto__: Array(0)concat: \'83 concat()constructor: \'83 Array()copyWithin: \'83 copyWithin()entries: \'83 entries()every: \'83 every()fill: \'83 fill()filter: \'83 filter()find: \'83 find()findIndex: \'83 findIndex()forEach: \'83 forEach()includes: \'83 includes()indexOf: \'83 indexOf()join: \'83 join()keys: \'83 keys()lastIndexOf: \'83 lastIndexOf()length: 0map: \'83 map()pop: \'83 pop()push: \'83 push()reduce: \'83 reduce()reduceRight: \'83 reduceRight()reverse: \'83 reverse()shift: \'83 shift()slice: \'83 slice()some: \'83 some()sort: \'83 sort()splice: \'83 splice()toLocaleString: \'83 toLocaleString()toString: \'83 toString()unshift: \'83 unshift()Symbol(Symbol.iterator): \'83 values()Symbol(Symbol.unscopables): \{copyWithin: true, entries: true, fill: true, find: true, findIndex: true,\'a0\'85\}__proto__: ObjectisCool: falsename: "meena"__proto__: Object\
+obj.add()\
+NaN\
+obj.add(10,5)\
+15\
+function speak()\{\
+    return "WOOF!";\
+\}\
+undefined\
+speak()\
+"WOOF!"\
+function speak()\{\
+    return "GRRR!";\
+\}\
+undefined\
+speak()\
+"GRRR!"\
+var dogSpace = \{\};\
+undefined\
+dogSpace.speak = function()\{\
+    return "WOOF!";\
+\}\
+\'83 ()\{\
+    return "WOOF!";\
+\}\
+var lionSpace = \{\};\
+undefined\
+lionSpace.speak = function()\{\
+    return "GRRR!";\
+\}\
+\'83 ()\{\
+    return "GRRR!";\
+\}\
+dogSpace.speak()\
+"WOOF!"\
+lionSpace.speak()\
+"GRRR!"\
+var comments = \{\};\
+undefined\
+comments.data = ["Good job", "Bye", "Lame.."];\
+(3) ["Good job", "Bye", "Lame.."]\
+object\
+VM1873:1 Uncaught ReferenceError: object is not defined\
+    at <anonymous>:1:1\
+(anonymous) @ VM1873:1\
+comments\
+\{data: Array(3)\}data: (3) ["Good job", "Bye", "Lame.."]__proto__: Object\
+function print(arr)\{\
+    arr.forEach(function(el)\{\
+        console.log(el);\
+    \}\
+VM1976:4 Uncaught SyntaxError: missing ) after argument list\
+function print(arr)\{\
+    arr.forEach(function(el)\{\
+        console.log(el);\
+    \});\
+\}    \
+undefined\
+print(comments.data);\
+VM1982:3 Good job\
+VM1982:3 Bye\
+VM1982:3 Lame..\
+undefined\
+comments.print = function()\{\
+    this.data.forEach(function(el)\{\
+        console.log(el);\
+    \});\
+\}    \
+\'83 ()\{\
+    this.data.forEach(function(el)\{\
+        console.log(el);\
+    \});\
+\}\
+comments\
+\{data: Array(3), print: \'83\}data: Array(3)0: "Good job"1: "Bye"2: "Lame.."length: 3__proto__: Array(0)print: \'83 ()arguments: nullcaller: nulllength: 0name: ""prototype: \{constructor: \'83\}__proto__: \'83 ()[[FunctionLocation]]: VM2074:1[[Scopes]]: Scopes[1]__proto__: Object\
+comments.print\
+\'83 ()\{\
+    this.data.forEach(function(el)\{\
+        console.log(el);\
+    \});\
+\}\
+comments.data\
+(3) ["Good job", "Bye", "Lame.."]\
+comments.print()\
+VM2074:3 Good job\
+VM2074:3 Bye\
+VM2074:3 Lame..}

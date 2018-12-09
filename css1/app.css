@@ -1,0 +1,29 @@
+/*h1{
+	color:purple;
+}
+li{
+	color:green;
+}
+h4{
+	color:yellow;
+}*/
+h1{
+	color: rgb(0,0,0);
+	/*border-color: maroon;
+	border-width: 5px;
+	border-style: solid;*/
+
+	border: 5px solid maroon;
+}
+/*width
+color
+style*/
+
+h4{
+	background: rgb(255,100,80);
+}
+body{
+	background: url(https://static.pexels.com/photos/139312/pexels-photo-139312.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;/*the image will be blur*/
+}

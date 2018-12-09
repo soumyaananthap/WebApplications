@@ -1,0 +1,205 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Console was cleared\
+undefined\
+var posts = [\
+    \{\
+        title: "god is great",\
+        author: "Tagore"\
+    \}\
+    \{\
+VM283:6 Uncaught SyntaxError: Unexpected token \{\
+var posts = [\
+    \{\
+        title: "god is great",\
+        author: "Tagore"\
+    \},\
+    \{\
+        title: "God creates all",\
+        author: "Kalaam"\
+    \}\
+    ]\
+undefined\
+var posts = [\
+    \{\
+        title: "god is great",\
+        author: "Tagore",\
+    \},\
+    \{\
+        title: "God creates all",\
+        author: "Kalaam"\
+    \}\
+    ]\
+undefined\
+posts\
+(2) [\{\'85\}, \{\'85\}]0: author: "Tagore"title: "god is great"__proto__: Object1: author: "Kalaam"title: "God creates all"__proto__: Objectconstructor: \'83 Object()hasOwnProperty: \'83 hasOwnProperty()isPrototypeOf: \'83 isPrototypeOf()propertyIsEnumerable: \'83 propertyIsEnumerable()toLocaleString: \'83 toLocaleString()toString: \'83 toString()valueOf: \'83 valueOf()__defineGetter__: \'83 __defineGetter__()__defineSetter__: \'83 __defineSetter__()__lookupGetter__: \'83 __lookupGetter__()__lookupSetter__: \'83 __lookupSetter__()get __proto__: \'83 __proto__()set __proto__: \'83 __proto__()length: 2__proto__: Array(0)\
+posts.length\
+2\
+posts[0].title\
+"god is great"\
+posts[1].title\
+"God creates all"\
+var someObject = \{\};\
+undefined\
+someObject._name = "sdfghj";\
+"sdfghj"\
+someObject.age = 6;\
+6\
+var prop = "color"\
+undefined\
+someObject[prop]= "red";\
+"red"\
+someObject.123 = "true";\
+VM540:1 Uncaught SyntaxError: Unexpected number\
+var someObject = \{\
+    friends:[\
+        \{name:"Sudha"\},\
+        \{name:"Ramya"\},\
+        \{name:"Rathi"\}\
+        ],\
+    color:"baby pink",\
+    isEvil:true\
+\};\
+undefined\
+friends[0]\
+VM612:1 Uncaught ReferenceError: friends is not defined\
+    at <anonymous>:1:1\
+(anonymous) @ VM612:1\
+someObject[friends] = "name"\
+VM700:1 Uncaught ReferenceError: friends is not defined\
+    at <anonymous>:1:12\
+(anonymous) @ VM700:1\
+someObject.friends\
+(3) [\{\'85\}, \{\'85\}, \{\'85\}]0: \{name: "Sudha"\}1: \{name: "Ramya"\}2: \{name: "Rathi"\}length: 3__proto__: Array(0)\
+someObject.friends[0]\
+\{name: "Sudha"\}\
+someObject.friends[0][1]\
+undefined\
+someObject.friends[0].name\
+"Sudha"\
+var movies = [\
+    \{\
+        title:"Mummy Returns", \
+        hasWatched : true,\
+        rating: 5\
+    \},\
+    \{\
+        title: "Lagaan",\
+        hasWatched: false,\
+        rating: 4.5\
+    \}\
+  ] \
+undefined\
+movies\
+(2) [\{\'85\}, \{\'85\}]0: \{title: "Mummy Returns", hasWatched: true, rating: 5\}hasWatched: truerating: 5title: "Mummy Returns"__proto__: Object1: \{title: "Lagaan", hasWatched: false, rating: 4.5\}hasWatched: falserating: 4.5title: "Lagaan"__proto__: Objectlength: 2__proto__: Array(0)\
+movies.forEach(function(movie)\{\
+    var result = "You have ";\
+    if(movie.hasWatched)\{\
+        result += "watched ";\
+    \} else \{\
+        result += "not seen ";\
+    \}\
+    result += "\\"" + movie.title + "\\" - ";\
+    result += movie.rating + " stars";\
+    console.log(result)\
+\})\
+VM1156:10 You have watched "Mummy Returns" - 5 stars\
+VM1156:10 You have not seen "Lagaan" - 4.5 stars\
+undefined\
+var movies = [\
+    \{\
+        title:"Mummy Returns", \
+        hasWatched : true,\
+        rating: 5\
+    \},\
+    \{\
+        title: "Lagaan",\
+        hasWatched: false,\
+        rating: 4.5\
+    \}\
+  ] \
+undefined\
+var movies = [\
+    \{\
+        title:"Mummy Returns", \
+        hasWatched : true,\
+        rating: 5\
+    \},\
+    \{\
+        title: "Lagaan",\
+        hasWatched: false,\
+        rating: 4.5\
+    \},\
+  ] \
+undefined\
+var movies = [\
+    \{\
+        title:"Mummy Returns", \
+        hasWatched : true,\
+        rating: 5\
+    \},\
+    \{\
+        title: "Lagaan",\
+        hasWatched: false,\
+        rating: 4.5\
+    \},\
+    \{\
+        title: "MS Dhoni",\
+        hasWatched: false;\
+VM1174:14 Uncaught SyntaxError: Unexpected token ;\
+var movies = [\
+    \{\
+        title:"Mummy Returns", \
+        hasWatched : true,\
+        rating: 5\
+    \},\
+    \{\
+        title: "Lagaan",\
+        hasWatched: false,\
+        rating: 4.5\
+    \},\
+    \{\
+        title: "MS Dhoni",\
+        hasWatched: false,\
+        rating: 3.5\
+    \}\
+    ]\
+undefined\
+movies.forEach(function(movie)\{\
+    var result = "You have ";\
+    if(movie.hasWatched)\{\
+        result += "watched ";\
+    \} else \{\
+        result += "not seen ";\
+    \}\
+    result += "\\"" + movie.title + "\\" - ";\
+    result += movie.rating + " stars";\
+    console.log(result)\
+\});\
+VM1185:10 You have watched "Mummy Returns" - 5 stars\
+VM1185:10 You have not seen "Lagaan" - 4.5 stars\
+VM1185:10 You have not seen "MS Dhoni" - 3.5 stars\
+undefined\
+function buildString(movie)\{\
+    var result = "You have ";\
+    if(movie.hasWatched)\{\
+        result += "watched ";\
+    \} else \{\
+        result += "not seen ";\
+    \}\
+    result += "\\"" + movie.title + "\\" - ";\
+    result += movie.rating + " stars";\
+	return result;\
+\}\
+undefined\
+movies.forEach(function(movie)\{\
+    console.log(buildString(movie));\
+\});\
+VM1354:2 You have watched "Mummy Returns" - 5 stars\
+VM1354:2 You have not seen "Lagaan" - 4.5 stars\
+VM1354:2 You have not seen "MS Dhoni" - 3.5 stars}
